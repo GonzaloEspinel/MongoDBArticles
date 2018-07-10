@@ -1,17 +1,13 @@
-.background-image {
-	margin-top: 1px;
-    background-image: url('../img/newsbackground.jpg');
-    background-size: cover;
-    color: #b6b6b6;
-    padding-bottom: 20px;
-}
-
 body {
-    padding-bottom: 20px;
-     display: flex;
-     min-height: 100vh;
-     flex-direction: column;
- }
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+  background-image: url("/img/newsbackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #b6b6b6;
+}
  main {
      flex: 1 0 auto;
  }
